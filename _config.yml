@@ -3,7 +3,7 @@ title: "Quick Actions Documentation"
 repository: outoftheboxplugins/QuickActions-docs
 
 remote_theme: just-the-docs/just-the-docs
-color_scheme: "dark"
+color_scheme: plugins
 logo: "/branding/logo.png"
 favicon_ico: "/branding/favicon.ico"
 
