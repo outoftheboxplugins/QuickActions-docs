@@ -20,7 +20,7 @@ UFUNCTION(meta = (QuickActionEntry))
 void ExampleFunction();
 ```
 
-By using this method, you can add entries to the quick menu *without* adding a hard depedency on the plugin. This way your code will still work even after the plugin is removed *with no additional changes*.
+By using this method, you can add entries to the quick menu **without** adding a hard depedency on the plugin. This way your code will still work even after the plugin is removed **with no additional changes**.
 
 {: .warning }
 Currently only functions with no input arguments are supported
@@ -70,7 +70,7 @@ TArray<TSharedPtr<FQuickCommandEntry>> UMyCoolExtension::GetCommands(const FTool
 }
 ```
 
-Finally you can use the following *console command* to only display extensions which contain the `"MyCoolExtension"` string in their name:
+Finally you can use the following **console command** to only display extensions which contain the `"MyCoolExtension"` string in their name:
 
 ```
 QuickActions.FilterExtensions MyCoolExtension
