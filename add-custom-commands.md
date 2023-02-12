@@ -48,7 +48,7 @@ class UMyCoolExtension : public UQuickMenuExtension
 };
 ```
 
-then inside the implementation of `GetCommands` you can add your commands:
+Then inside the implementation of `GetCommands` you can add your commands:
 ```c++
 TArray<TSharedPtr<FQuickCommandEntry>> UMyCoolExtension::GetCommands(const FToolMenuContext& Context)
 {
@@ -68,4 +68,10 @@ TArray<TSharedPtr<FQuickCommandEntry>> UMyCoolExtension::GetCommands(const FTool
 	OutCommands.Add(MyCoolEntry);
 	return OutCommands;
 }
+```
+
+Finally you can use the following *console command* to only display extensions which contain the `"MyCoolExtension"` string in their name:
+
+```
+QuickActions.FilterExtensions MyCoolExtension
 ```
