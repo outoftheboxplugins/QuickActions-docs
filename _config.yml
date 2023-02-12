@@ -6,6 +6,7 @@ remote_theme: just-the-docs/just-the-docs
 color_scheme: "dark"
 logo: "/branding/logo.png"
 favicon_ico: "/branding/favicon.ico"
+baseurl: "/CleanProject"
 
 aux_links:
   "Open an issue":
