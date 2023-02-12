@@ -1,0 +1,1 @@
+docker run --rm -it -p 4000:4000 -v ${PWD}:/srv/jekyll jekyll/jekyll:4.2.0 jekyll serve --incremental --livereload --force_polling
