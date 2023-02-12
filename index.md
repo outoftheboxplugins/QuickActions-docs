@@ -1,5 +1,10 @@
-# Pls
+---
+layout: default
+title: Getting started
+nav_order: 0
+---
 
-## Write
+# Summoning the quick menu
 
-Something
+Press `CTRL + Q`
+

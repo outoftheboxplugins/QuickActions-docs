@@ -18,17 +18,15 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 callouts:
-  highlight:
+  warning:
+    title: Warning
     color: yellow
   important:
     title: Important
-    color: blue
-  new:
-    title: New
-    color: green
+    color: red
   note:
     title: Note
     color: purple
-  warning:
-    title: Warning
-    color: red
+  new:
+    title: New
+    color: green
