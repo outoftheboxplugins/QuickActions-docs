@@ -16,5 +16,5 @@ Here you can replace the existing shortcut by clicking on the first field (or as
 
 Inside `Editor Preferences → Out-of-the-Box Plugins → Quick Menu` you can find all the relevant plugin settings.
 
-TODO: Not worth covering now since favourites & recents might change the looks.
+TODO: Not worth covering now since they will change once recent and favourites commands are implemented.
 
