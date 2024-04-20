@@ -6,7 +6,7 @@ nav_order: 0
 
 # Summoning the quick menu
 
-Press `CTRL + Q` (or configure your own [Keybinding](/settings#change-keybinding))
+Press `ALT + Q` (or configure your own [Keybinding](/settings#change-keybinding))
 
 <video controls="" width="800" height="500" loop="true" autoplay="false">
 <source src="https://user-images.githubusercontent.com/21221169/218317517-503737a6-c653-4f05-b8c7-829d6efeafbc.mp4" type="video/mp4">
